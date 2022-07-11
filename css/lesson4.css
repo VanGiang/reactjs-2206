@@ -1,0 +1,48 @@
+[target=_blank] {
+    color: red;
+}
+
+[name=lname] {
+    background-color: aqua;
+}
+
+div p {
+    color: red;
+}
+
+span {
+    color: red;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+}
+
+.navbar {
+    /* display: flex; */
+    /* background-color: #333333; */
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.navbar div {
+    padding: 20px 15px;
+    cursor: pointer;
+    float: left;
+    background-color: #333333;
+}
+
+.navbar div:hover {
+    background-color: #4caf50;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* .clear-class {
+    clear: left;
+} */
