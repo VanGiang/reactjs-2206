@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <script src="js/lesson5.js"></script>
+
+</head>
+
+<body>
+    <p id="demo">Before</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+
+
+    <script>
+        var text = '';
+
+        for (let i = 0; i < 5; i++) {
+            text += "The number is" + i + "<br>";
+        }
+
+        console.log(text);
+
+        // vong 1: i = 0 => text = The number is 0 <br> => i = 1
+        // vong 2: i = 1 => text = The number is 0 <br>
+        //                         The number is 1 <br>
+        // vong 3: i = 2 => text = The number is 0 <br>
+        //                         The number is 1 <br>
+        //                         The number is 2 <br>
+        // vong 4: i = 3 => text = The number is 0 <br>
+        //                         The number is 1 <br>
+        //                         The number is 2 <br>
+        //                         The number is 3 <br>
+        // vong 5: i = 4 => text = The number is 0 <br>
+        //                         The number is 1 <br>
+        //                         The number is 2 <br>
+        //                         The number is 3 <br>
+        //                         The number is 4 <br>
+        // vong 6: i = 5 => text = The number is 0 <br>
+        //                         The number is 1 <br>
+        //                         The number is 2 <br>
+        //                         The number is 3 <br>
+        //                         The number is 4 <br>
+
+    </script>
+</body>
+
+</html>
